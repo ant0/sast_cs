@@ -2,7 +2,7 @@ using System;
 
 namespace Services
 {
-    public class SqlInjectionService : ISqlInjectionService
+    public class SqlInjectionService
     {
         private string GetConnectionString()
         {
