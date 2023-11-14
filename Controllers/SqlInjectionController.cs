@@ -2,10 +2,8 @@ using Services;
 
 namespace VulnerableCoreApp.Controllers
 {
-    public class SqlInjectionController : Controller
+    public class SqlInjectionController
     {
-        private readonly ISqlInjectionService _sqlInjectionService;
-
         public SqlInjectionController(ISqlInjectionService sqlInjectionService)
         {
             _sqlInjectionService = sqlInjectionService;
