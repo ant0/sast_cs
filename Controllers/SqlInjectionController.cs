@@ -1,8 +1,6 @@
-using DI.Services;
-using System.Web.Mvc;
-using vuln_netframework.Models.SqlInjection;
+using Services;
 
-namespace vuln_netframework.Controllers
+namespace VulnerableCoreApp.Controllers
 {
     public class SqlInjectionController : Controller
     {
