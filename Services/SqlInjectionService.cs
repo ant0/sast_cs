@@ -1,9 +1,6 @@
 using System;
-using System.Configuration;
-using System.Data;
-using System.Data.SqlClient;
 
-namespace DI.Services
+namespace Services
 {
     public class SqlInjectionService : ISqlInjectionService
     {
